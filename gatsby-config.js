@@ -1,3 +1,6 @@
+console.log("Using GATSBY_ suffix", process.env.GATSBY_WHERE_AM_I_RUNNING)
+console.log("Without the GATSBY_ thingy", process.env.WHERE_AM_I_RUNNING)
+
 module.exports = {
   siteMetadata: {
     title: `Gatsby Default Starter`,
